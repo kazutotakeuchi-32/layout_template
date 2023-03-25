@@ -1,16 +1,17 @@
 <!-- 1カラム -->
 <!DOCTYPE html>
 <html>
-<head>
-	<title>1 Column Layout</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<style>
 
-		body {
-			margin: 0;
-			padding: 0;
-			box-sizing: border-box;
-		}
+<head>
+  <title>1 Column Layout</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     header {
       height: 80px;
       width: 100%;
@@ -21,22 +22,24 @@
       height: 200px;
       background-color: #111;
     }
-    
-		.container {
-			max-width: 960px;
-			margin: 0 auto;
-			display: flex;
-			flex-wrap: wrap;
-			align-items: stretch;
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: stretch;
       min-height: calc(100vh - 280px);
-		}
-	</style>
+    }
+  </style>
 </head>
+
 <body>
   <header></header>
-	<div class="container">
-		<p>This is a one column layout.</p>
-	</div>
+  <div class="container">
+    <p>This is a one column layout.</p>
+  </div>
   <footer></footer>
 </body>
+
 </html>
